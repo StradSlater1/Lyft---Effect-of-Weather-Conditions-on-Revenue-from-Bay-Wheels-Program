@@ -1,0 +1,15 @@
+Alter Table ordered_table
+add column start_temp int,
+add column "start_condition" text,
+add column "start_wind" text,
+add column "start_wind_direction" text,
+add column "start_humidity" text,
+add column "start_barometer" text,
+add column "start_visibility" text,
+add column end_temp int,
+add column "end_condition" text,
+add column "end_wind" text,
+add column "end_wind_direction" text,
+add column "end_humidity" text,
+add column "end_barometer" text,
+add column "end_visibility" text;
